@@ -1,3 +1,5 @@
-export function isOdd(): string {
-  return 'is-odd';
+import { isEven } from '@org/is-even';
+
+export function isOdd(x: number): boolean {
+  return !isEven(x);
 }

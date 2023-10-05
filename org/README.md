@@ -2,7 +2,11 @@
 
 ## Running tasks
 
-npx nx build is-even
+npx nx build is-even (test)
+
+npx nx build is-odd (test)
+
+npx nx run-many -t build (test)
 
 ```
 nx <target> <project> <...options>
